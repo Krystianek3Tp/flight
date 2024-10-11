@@ -16,7 +16,15 @@ class MyForm(QDialog):
         self.show()
 
     def calculate(self):
-        print("xd")
+        price = 0
+        if self.ui.businessButton.isChecked():
+            price = 300
+        elif self.ui.economyButton.isChecked():
+            price = 5
+        elif self.ui.firstButton.isChecked():
+            price = 500
+
+        self.ui.resultLabel.setText(f'Koszt biletu: {price}')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
