@@ -44,23 +44,23 @@
      </widget>
     </item>
     <item>
-     <widget class="QRadioButton" name="firstButton">
-      <property name="text">
-       <string>Pierwsza klasa 500zł</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QRadioButton" name="businessButton">
+     <widget class="QCheckBox" name="buisinessBox">
       <property name="text">
        <string>Buisiness klasa 300zł</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QRadioButton" name="economyButton">
+     <widget class="QCheckBox" name="firstBox">
       <property name="text">
-       <string>Klasa ekjonomiczna 5zł</string>
+       <string>Pierwsza klasa 500zł</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="economicBox">
+      <property name="text">
+       <string>Economic 5zł</string>
       </property>
      </widget>
     </item>
